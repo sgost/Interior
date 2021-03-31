@@ -1,0 +1,204 @@
+.landingSlider {
+    margin-top: 173px;
+    padding: 0;
+    h1 {
+        font-family: Playfair Display;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 48px;
+        text-align: center;
+        color: #1a3d34;
+    }
+    #container {
+        width: calc(100% - 29%);
+        margin: auto;
+        display: grid;
+        height: auto;
+        margin-top: 47px;
+        grid-template-rows: repeat(6, 70px);
+        grid-template-columns: auto auto auto;
+        grid-auto-columns: auto;
+        gap: 24px;
+    }
+    img {
+        width: 100%;
+        height: 100%;
+    }
+    .div1 {
+        grid-row: 1/4;
+    }
+    .div2 {
+        grid-row: 1/3;
+    }
+    .div3 {
+        grid-row: 1/5;
+    }
+    .div4 {
+        grid-row: 4/7;
+    }
+    .div5 {
+        grid-row: 3/5;
+    }
+    .div6 {
+        grid-row: 5/7;
+    }
+    .div7 {
+        grid-column: 2/3;
+        grid-row: 5/7;
+    }
+    .lightbox {
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: flex;
+        min-height: 100vh;
+        width: 100%;
+        z-index: 5;
+        background:white;
+        display: none;
+    }
+    .lightbox .carousel {
+        height: 40px;
+        width: 40px;
+        position: absolute;
+        top: calc(50% - 5%);
+        background: white;
+        border-radius: 50%;
+        z-index: 6;
+        opacity: 1;
+    }
+    .lightbox .carousel span {
+        position: absolute;
+        height: 3px;
+        width: 10px;
+        left: calc(50% - 5px);
+        top: calc(50% - 1.5px);
+        display: block;
+        background:rgba(0, 0, 0, 0.486);
+        border-radius: 10px;
+    }
+    .lightbox .carousel.left {
+        left: 5px;
+    }
+    .lightbox .carousel.right {
+        right: 0;
+        right: 5px;
+    }
+    .lightbox .carousel.left span:nth-child(1) {
+        transform: rotate(-30deg);
+        transform-origin: left;
+    }
+    .lightbox .carousel.left span:nth-child(2) {
+        transform: rotate(30deg);
+        transform-origin: left;
+    }
+    .lightbox .carousel.right span:nth-child(1) {
+        transform: rotate(-30deg);
+        transform-origin: right;
+    }
+    .lightbox .carousel.right span:nth-child(2) {
+        transform: rotate(30deg);
+        transform-origin: right;
+    }
+    .lightbox .carousel:hover {
+        background: rgba(87, 194, 167, 1);
+    }
+    .lightbox .carousel:hover span {
+        background: #fff;
+    }
+    .lightbox .close {
+        margin: 30px 20px 0 auto;
+        border-radius: 20px;
+        width: 30px;
+        height: fit-content;
+        background: red;
+        color: white;
+        transition: 0.5s;
+        cursor: pointer;
+        position: relative;
+        opacity: 1;
+        z-index: 1;
+    }
+    .lightbox .close:hover {
+        color: cornflowerblue;
+    }
+    .lightbox img {
+        position: absolute;
+        height: auto;
+        width: 70%;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        object-fit: cover;
+        box-shadow: 0px 4px 50px 2px rgba(190, 190, 190, 0.25);
+    }
+    @media (max-width: 1145px) {
+        h1 {
+            font-size: 6vw;
+        }
+        #container {
+            grid-template-rows: repeat(6, auto);
+            gap: 24px;
+        }
+    }
+    @media (max-width: 800px) {
+        #container {
+            grid-template-rows: repeat(6, auto);
+            gap: 15px;
+            width: calc(100% - 8%);
+        }
+        .lightbox img {
+            position: absolute;
+            height: auto;
+            width: 100%;
+        }
+    }
+    @media (max-width: 580px) {
+        #container {
+            gap: 8px;
+            grid-template-rows: repeat(6, 45px);
+            margin-top: 30px;
+        }
+        .lightbox .carousel span {
+            height: 2px;
+            width: 8px;
+            background: rgba(0, 0, 0, 0.2);
+        }
+        .lightbox .carousel {
+            height: 20px;
+            width: 20px;
+            top: calc(50% - 1%);
+        }
+    }
+    @media (max-width: 499px) {
+        #container {
+            gap: 8px;
+            grid-template-rows: repeat(6, 40px);
+        }
+    }
+    @media (max-width: 433px) {
+        #container {
+            grid-template-rows: repeat(6, 30px);
+        }
+    }
+    @media (max-width: 340px) {
+        #container {
+            grid-template-rows: repeat(6, 25px);
+        }
+    }
+    @media (max-width: 280px) {
+        #container {
+            grid-template-rows: repeat(6, 20px);
+        }
+    }
+}
+@media (max-width:701px){
+    .landingSlider {
+        padding-bottom: 100px;
+}
+}
+@media (max-width:450px){
+    .landingSlider {
+        padding-bottom: 60px;
+}
+}

@@ -1,18 +1,89 @@
 backend:
-  name: test-repo
+  name: git-gateway
+  branch: main
 
 publish_mode: editorial_workflow
 
-media_folder: 'assets'
-public_folder: '/'
+media_folder: 'src/data/assets'
+public_folder: 'src/data/assets'
 
 collections:
-  - label: Home
-    name: home
+  - label: "Title-Heading-Description"
+    name: "pages"
+    folder: "src/data"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Heading", name: "headding", widget: "string"}   
+      - {label: "Description", name: "description", widget: "string"} 
+  
+  - label: "Markdown"
+    name: "markdown"
     files:
-      - label: Home
-        name: home
-        file: 'home.md'
+      - file: "src/data/banner.md"
+        label: "Banner"
+        name: "banner"
         fields:
-          - { label: Title, name: title }
-          - { label: Description, name: description }
+          - {label: "Heading", name: "headding", widget: "string", default: "Interior Design & Decors"}
+      - file: "src/data/card.md"
+        label: "Card"
+        name: "card"
+        fields:
+          - {label: "Card", name: "card", widget: "list", fields: [{label: "ID", name: "id", widget: "number"}, {label: "Title", name: "title", widget: "string"}, {label: "Description", name: "description", widget: "string"}, {label: "Image", name: "image", widget: "image"}]}
+      - file: "src/data/clintreviews.md"
+        label: "ClintReviews"
+        name: "clintreviews"
+        fields:
+          - {label: "Clintreviews", name: "clintreviews", widget: "list", fields: [{label: "ID", name: "id", widget: "number"}, {label: "Name", name: "name", widget: "string"}, {label: "Location", name: "location", widget: "string"}, {label: "Review", name: "review", widget: "string"}, {label: "Description", name: "description", widget: "string"}, {label: "Image", name: "image", widget: "image"}]}
+      - file: "src/data/clintstatus.md"
+        label: "ClintStatus"
+        name: "Clintstatus"
+        fields:
+          - {label: "Clintstatus", name: "clintstatus", widget: "list", fields: [{label: "ID", name: "id", widget: "number"}, {label: "Title", name: "title", widget: "string"}, {label: "Description", name: "description", widget: "string"}, {label: "Image", name: "image", widget: "image"}]}
+      - file: "src/data/contact.md"
+        label: "Contact"
+        name: "contact"
+        fields:
+          - {label: "Phone", name: "contact_block1_phone", widget: "number", default: "+91 - 9876543210"}
+          - {label: "Mail", name: "contact_block1_mail", widget: "string", default: "hello@balajiinteriors.com"}
+          - {label: "Address", name: "address", widget: "string", default}
+      - file: "src/data/product.md"
+        label: "Product"
+        name: "product"
+        fields:
+          - {label: "ProductNav", name: "productnav", widget: "list", fields: [{label: "ID", name: "id", widget: "number"}, {label: "List", name: "li", widget: "string"}]}
+          - {label: "Product", name: "product", widget: "list", fields: [{label: "ID", name: "id", widget: "number"}, {label: "Title", name: "title", widget: "string"}, {label: "Description", name: "description", widget: "string"}, {label: "OriginalPrize", name: "originalprize", widget: "number"}, {label: "CurrentPrize", name: "currentprize", widget: "number"}, {label: "Image", name: "image", widget: "image"}]}
+      - file: "src/data/productdetails.md"
+        label: "ProductDetails"
+        name: "productdetails"
+        fields:
+          - {label: "ProductTitle", name: "productTitle", widget: "string"}
+          - {label: "ProductTag", name: "productTag", widget: "string"}
+          - {label: "ProductDis", name: "productDis", widget: "string"}
+          - {label: "Marketprize", name: "marketprize", widget: "string"}
+          - {label: "Ourprize", name: "ourprize", widget: "string"}
+          - {label: "Button", name: "button", widget: "string"}
+          - {label: "Quality", name: "quality", widget: "string"}
+          - {label: "Size", name: "size", widget: "string"}
+          - {label: "SizePara1", name: "sizePara1", widget: "string"}
+          - {label: "Sizepara2", name: "sizepara2", widget: "string"}
+          - {label: "Type", name: "type", widget: "string"}
+          - {label: "Status", name: "status", widget: "string"}
+          - {label: "Materials", name: "materials", widget: "string"}
+          - {label: "MaterialType", name: "materialType", widget: "string"}
+          - {label: "Measurement", name: "measurement", widget: "string"}
+          - {label: "MeasurementStatus", name: "measurementStatus", widget: "string"}
+          - {label: "Delivary", name: "delivary", widget: "string"}
+          - {label: "Days", name: "days", widget: "string"}
+          - {label: "Productcards", name: "productcards", widget: "list", fields: [{label: "ID", name: "id", widget: "number"}, {label: "Title", name: "title", widget: "string"}, {label: "Description", name: "description", widget: "string"}, {label: "Originalprize", name: "originalprize", widget: "number"}, {label: "Currentprize", name: "currentprize", widget: "number"}, {label: "Image", name: "image", widget: "image"}]}
+      - file: "src/data/recentprojects.md"
+        label: "Recentprojects"
+        name: "recentprojects"
+        fields:
+          - {label: "Recentprojects", name: "recentprojects", widget: "list", fields: [{label: "ID", name: "id", widget: "number"}, {label: "Image", name: "image", widget: "image"}]}
+      - file: "src/data/work.md"
+        label: "Work"
+        name: "work"
+        fields:
+          - {label: "WorkMenu", name: "workMenu", widget: "list", fields: [{label: "ID", name: "id", widget: "number"}, {label: "WorkList", name: "li", widget: "string"}]}
+      

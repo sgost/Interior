@@ -1,0 +1,23 @@
+.nav-co #navbarResponsive #nav_items .nav_active{
+    border:none;
+    border-bottom:4px solid #32D3A9;
+    text-decoration: none;
+    list-style-type: none;
+}
+.nav-co #navbarResponsive #nav_items .nav_active2{
+    border:none;
+    border-bottom:none;
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
+@media (max-width:1199px){
+    .nav-co #navbarResponsive #nav_items .nav_active{
+        line-height: 10px;
+        border-bottom:2px solid #32D3A9;
+    }
+    .nav-co #navbarResponsive #nav_items .nav_active2{
+        border-bottom:2px solid #32D3A9;
+    }
+
+}

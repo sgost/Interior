@@ -1,0 +1,536 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.workMenu2{
+    display: none;
+}
+.work #navtitle {
+    color: white;
+}
+.work #navbtn2 {
+    color: white;
+}
+.work .nav-co #toggle_i{
+    background-color: white;
+}
+.work .ntbtn {
+    display: none;
+    color: white;
+}
+.work .navbtn1 {
+    color: rgba(20, 30, 31, 1);
+    background-color: white;
+}
+.work .ntbtn2 {
+    display: block;
+    color: white;
+}
+#ul{
+    display: none;
+}
+.work {
+    background: white;
+    .work_banner {
+        width: 100%;
+        height: 100vh;
+        background-image: url("../images/workbanner.png");
+        background-size: 668px 568px;
+        background-repeat: no-repeat;
+        background-position: top right;
+        background-color: rgba(20, 30, 31, 1);
+        overflow: hidden;
+    }
+    .work_components {
+        max-width: calc(100% - 19.58333333333333%);
+        margin: auto;
+    }
+    .work_components h1 {
+        font-family: Playfair Display;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 64px;
+        line-height: 90px;
+        color: #ffffff;
+        opacity: 0.9;
+        margin-top: 155px;
+        max-width: 600px;
+    }
+    .work_components p {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 27px;
+        letter-spacing: 0.02em;
+        color: #ffffff;
+    }
+    /*===================workmenu===============*/
+    .workMenu {
+        max-width: calc(100% - 19.58333333333333%);
+        justify-content: space-between;
+        margin: 49px auto 0 auto;
+    }
+    .workMenu ul {
+        display: flex;
+        justify-content: space-between;
+    }
+    .workMenu button {
+        display: none;
+    }
+    .workMenu ul li {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        color: #222222;
+        transition: 0.5s ease;
+        cursor: pointer;
+    }
+    .workMenu ul li:hover {
+        font-weight: 600;
+        width: fit-content;
+        border-bottom: 3px solid #32d3a9;
+    }
+    .footer{
+        display: none;
+    }
+    /*===================work_carousal_all_cards===============*/
+    .work_carousal_all_cards {
+        max-width: calc(100% - 14.9122807%);
+        margin: 68px auto 0 auto;
+        display: flex;
+        flex-direction: column;
+        row-gap: 202px;
+    }
+    .work_carousal_card {
+        flex-direction: row;
+        display: grid;
+        grid-template-rows: auto auto auto;
+        grid-template-columns: 52% 45%;
+        grid-column-gap: 5%;
+    }
+    .work_carousal_card_block1 {
+        grid-row: 1/-1;
+    }
+    .work_carousal_card2_block1 {
+        grid-column: 2/3;
+    }
+    .work_carousal_card_block2_txt h1 {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: 0.05em;
+        color: #222222;
+    }
+    .work_para {
+        margin-top: 18px;
+    }
+    .work_carousal_card_block2_txt p {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15.5418px;
+        line-height: 10px;
+        letter-spacing: 0.02em;
+        color: #222222;
+    }
+    .work_para .p20 {
+        display: none;
+    }
+    .work_carousal_card_block2_reviewcard {
+        background: #ffffff;
+        box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+        padding: 34px 46px;
+        margin-top:77px;
+    }
+    .work_carousal_card_block2_reviewcard p {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1vw;
+        line-height: 22px;
+        letter-spacing: 0.05em;
+        color: #222222;
+        opacity: 0.8;
+        margin-top: 0;
+    }
+    .workquatation {
+        width: 36px;
+        height: 36px;
+        margin-bottom: 10px;
+    }
+    .review_card_footer {
+        display: flex;
+        justify-content: space-between;
+    }
+    .review_card_footer_details {
+        margin-top: 10px;
+    }
+    .review_card_footer_details h1 {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 22px;
+        letter-spacing: 0.05em;
+        color: #222222;
+    }
+    .review_card_footer_details p {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 21px;
+        letter-spacing: 0.05em;
+        color: #222222;
+    }
+    .review_card_footer_contact {
+        height: auto;
+    }
+    .review_card_footer_contact p {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 100px;
+        letter-spacing: 0.01em;
+        color: #1a3d34;
+        height: 1px;
+    }
+    .phone_icon {
+        width: 16.26px;
+        position: relative;
+        right: 10px;
+    }
+    .work_carousal_card2 {
+        flex-direction: row-reverse;
+        grid-template-columns: 45% 52%;
+    }
+    //*=========workcarousal================*//
+    .Workcarousalimg {
+        width: 100%;
+        height: 446px;
+    }
+    .Workcarousalimg img {
+        width: 100%;
+        height: 446px;
+    }
+    .slick-dots li button:before {
+        font-size: 15px;
+        color: white;
+        position: relative;
+        top: -40px;
+    }
+
+    /*==========quries=============*/
+    @media (max-width: 1493px) {
+        .work_carousal_card_block2_txt h1 {
+            font-size: 1.7vw;
+        }
+        .work_carousal_card_block2_reviewcard p {
+            font-size: 0.9vw;
+        }
+        .review_card_footer h1 {
+            font-size: 1.8vw;
+        }
+        .review_card_footer_details p {
+            font-size: 1vw;
+        }
+        .work_carousal_card_block2_reviewcard .workquatation {
+            width: 2vw;
+            height: auto;
+        }
+    }
+    @media (max-width: 1373px) {
+        .work_components h1 {
+            font-size: 5.4vw;
+        }
+        .work_components p {
+            font-size: 2vw;
+        }
+        .workMenu ul li {
+            font-size: 1.2vw;
+        }
+    }
+    @media (max-width:1200px){
+          .nav-co #nav_items{
+            background: rgba(20, 30, 31, 1);
+          }
+    }
+    @media (max-width: 984px) {
+        .work_components h1 {
+            font-size: 7vw;
+        }
+        .work_components p {
+            font-size: 3vw;
+        }
+        .work_carousal_card {
+            grid-template-rows: auto auto auto;
+            grid-template-columns: 100%;
+            grid-column-gap: 0;
+        }
+        .work_carousal_card2_block1 {
+            grid-column: 1/2;
+        }
+        .work_para .p20 {
+            display: none;
+        }
+        .Workcarousalimg {
+            width: 100%;
+            height: 100%;
+        }
+        .Workcarousalimg img {
+            width: 100%;
+            height: 100%;
+        }
+        .work_carousal_card_block2_reviewcard {
+            margin-top: 40px;
+        }
+        .work_carousal_card_block2_reviewcard p {
+            font-size: 2vw;
+        }
+        .work_carousal_card_block2_txt h1 {
+            font-size: 3.5vw;
+        }
+        .work_carousal_card_block2_txt p {
+            font-size: 2.5vw;
+            margin-top: 20px;
+        }
+        .review_card_footer_details h1 {
+            font-size: 20px;
+        }
+    }
+    @media (max-width: 850px) {
+        .work_components h1 {
+            font-size: 7vw;
+            line-height: 50px;
+        }
+    }
+    @media (max-width: 710px) {
+        .footer{
+            display: block;
+        }
+        .work_components h1 {
+            font-size: 7vw;
+            line-height: 50px;
+        }
+        .work_components p {
+            font-size: 3vw;
+        }
+        .workMenu {
+            display: none;
+        }
+        #workmenu2{
+            max-width: calc(100% - 8%);
+            margin: auto;
+        }
+        #ul{
+            display: block;
+        }
+        #ul ul li:hover{
+            font-weight: 600;
+            width: fit-content;
+            border-bottom: 3px solid #32d3a9;
+        }
+        #menu{
+            width: 100%;
+        }
+        #ul .btn-primary {
+            color: #222222;
+            background-color: white;
+            border: none;
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 12px;
+            outline: none;
+            width: 129px;
+            height: 40px;
+            margin-top: 73px;
+        }
+        #ul .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
+            color: #222222;
+            background-color: white;
+        }
+    }
+    @media (max-width: 600px) {
+        #ul .btn-primary {
+            color: #222222;
+            background-color: white;
+            border: none;
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 12px;
+            outline: none;
+            width: 129px;
+            height: 40px;
+        }
+        .work_banner {
+            background-size: 100vw 370px;
+            background-position: top right -100px;
+        }
+        .work_components {
+            text-align: center;
+            position: relative;
+            top: 25%;
+            width: 100%;
+        }
+        .work_components h1{
+            width: auto;
+            margin-left: auto;
+            margin-right: auto;
+            font-size: 8.5vw;
+            line-height: auto;
+        }
+        .work_carousal_all_cards {
+            max-width: calc(100% - 8%);
+            margin-top: 20px;
+            row-gap: 97px;
+        }
+        .work_carousal_card {
+            grid-template-rows: auto auto auto;
+            grid-template-columns: 100%;
+            grid-column-gap: 0;
+        }
+        .Workcarousalimg {
+            width: 100%;
+            height: 100%;
+        }
+        .Workcarousalimg img {
+            width: 100%;
+            height: 100%;
+        }
+        .work_carousal_card_block2_txt {
+            grid-row: 1/2;
+            margin-bottom: 20px;
+        }
+        .work_carousal_card_block2_reviewcard p {
+            font-size: 10px;
+            line-height: 15px;
+            margin-top: 30px;
+        }
+        .work_carousal_card_block2_reviewcard .workquatation {
+            height: fit-content;
+            position: absolute;
+        }
+        .work_carousal_card_block2_txt h1 {
+            font-size: 3.5vw;
+            line-height: 12px;
+        }
+        .work_carousal_card_block2_txt p {
+            font-size: 2.5vw;
+            line-height: 0;
+            margin: 0;
+        }
+        .review_card_footer_details {
+            h1 {
+                font-size: 20px;
+                line-height: 0;
+            }
+            p {
+                line-height: 15px;
+                margin: 0;
+            }
+        }
+        .work_carousal_card_block1 {
+            grid-row: 2/3;
+        }
+        .slick-dots li button {
+            font-size: 12px;
+            color: #666666;
+            position: relative;
+            top: -1px;
+        }
+        .work_carousal_card_block2_txt .work_para {
+            display: inline-flex;
+            column-gap: 10px;
+            position: relative;
+            top: -10px;
+        }
+        .work_para .p20 {
+            display: flex;
+        }
+        .work_carousal_card_block2_reviewcard {
+            margin-top: 49px;
+            background: white;
+            padding: 22px;
+            box-shadow: 0px 0px 30px rgb(0 0 0 / 10%);
+            row-gap: 0;
+        }
+        .work_carousal_card_block2_reviewcard .workquatation {
+            width: 24.15px;
+            height: 19.19px;
+        }
+        .review_card_footer_contact {
+            height: fit-content;
+            margin-top: 0px;
+            p{
+                margin:10px 0 0 0;
+            }
+        }
+    }
+    @media (max-width: 458px) {
+        .work_carousal_card {
+            grid-template-rows: auto auto auto;
+        }
+        .review_card_footer_details h1 {
+            font-size: 5vw;
+        }
+        .review_card_footer_details p {
+            font-size: 3vw;
+        }
+        .work_carousal_card_block2_reviewcard p {
+            font-size: 2.3vw;
+            line-height: 20px;
+        }
+        .work_banner {
+            background-size: 105vw 50vh;
+            background-position: top right -100px;
+        }
+        .work_components h1{
+            line-height: 40px;
+        }
+    }
+    @media (max-width: 360px) {
+        .work_carousal_card_block2_reviewcard {
+            padding: 15px;
+        }
+        .work_carousal_card_block2_reviewcard p {
+            line-height: 15px;
+            font-size: 2.4vw;
+        }
+        .work_banner {
+            background-size: 110vw 50vh;
+            background-position: top right -100px;
+        }
+        .work_components{
+            top:20%;
+        }
+    }
+    @media (max-width: 302px){
+        .work_components h1{
+            line-height: 30px;
+        }
+        .work_banner {
+            background-size: 115vw 45vh;
+        }
+    }
+}
+@media (max-width: 700px) {
+    .work {
+        background-color: transparent;
+    }
+    .work .navbtn1 {
+        color: white;
+        background-color:transparent;
+    }
+}
+@media (max-width: 1200px){
+        .work .navbtn1 {
+        color: white;
+        background-color:transparent;
+    }
+}
