@@ -173,7 +173,8 @@ body {
 /*-------cards------*/
 
 .page3 {
-    max-width: calc(100% - 18%);
+    min-width: calc(100% - 18%);
+    width: calc(100% - 18%);
     margin: auto;
     height: auto;
 }
@@ -234,7 +235,7 @@ body {
     font-family: Playfair Display;
     font-style: normal;
     font-weight: bold;
-    font-size: 3vw;
+    font-size: 3.2vw;
     line-height: 64px;
     color: #1a3d34;
 }
@@ -514,13 +515,13 @@ body {
     max-width: 473px;
 }
 
-.mtr_i1 {
-    opacity: 0.5;
+#mtr_i1 {
+    opacity: 0.3;
     margin-top: 33px;
 }
 
-.mtr_i2 {
-    opacity: 0.5;
+#mtr_i2 {
+    opacity: 0.3;
     margin-top: 10px;
     float: right;
 }

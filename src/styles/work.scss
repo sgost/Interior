@@ -78,6 +78,11 @@
     .workMenu button {
         display: none;
     }
+    .workMenu ul .active-workli{
+        border-bottom: 3px solid #32d3a9;
+        font-weight: 600;
+        width: fit-content;
+    }
     .workMenu ul li {
         font-family: Poppins;
         font-style: normal;
@@ -87,11 +92,6 @@
         transition: 0.5s ease;
         cursor: pointer;
     }
-    .workMenu ul li:hover {
-        font-weight: 600;
-        width: fit-content;
-        border-bottom: 3px solid #32d3a9;
-    }
     .footer{
         display: none;
     }
@@ -99,9 +99,12 @@
     .work_carousal_all_cards {
         max-width: calc(100% - 14.9122807%);
         margin: 68px auto 0 auto;
-        display: flex;
+        display: none;
         flex-direction: column;
         row-gap: 202px;
+    }
+    .active-work_carousal_all_cards{
+        display: flex;
     }
     .work_carousal_card {
         flex-direction: row;
@@ -329,7 +332,7 @@
         #ul{
             display: block;
         }
-        #ul ul li:hover{
+        #ul ul .active-workli{
             font-weight: 600;
             width: fit-content;
             border-bottom: 3px solid #32d3a9;

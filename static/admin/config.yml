@@ -75,7 +75,127 @@ collections:
           - {label: "MeasurementStatus", name: "measurementStatus", widget: "string"}
           - {label: "Delivary", name: "delivary", widget: "string"}
           - {label: "Days", name: "days", widget: "string"}
-          - {label: "Productcards", name: "productcards", widget: "list", fields: [{label: "ID", name: "id", widget: "number"}, {label: "Title", name: "title", widget: "string"}, {label: "Description", name: "description", widget: "string"}, {label: "Originalprize", name: "originalprize", widget: "number"}, {label: "Currentprize", name: "currentprize", widget: "number"}, {label: "Image", name: "image", widget: "image"}]}
+          - {label: "kitchen accessories", name: "kitchenAccessories", widget: "list", 
+                    fields: 
+                          [
+                           {label: "ID", name: "id", widget: "number"}, 
+                           {label: "Title", name: "title", widget: "string"}, 
+                           {label: "Description", name: "description", widget: "string"}, 
+                           {label: "Originalprize", name: "originalprize", widget: "number"},
+                           {label: "Currentprize", name: "currentprize", widget: "number"},
+                           {label: "Image", name: "image", widget: "image"}
+                          ]
+          }
+          - {label: "furniture", name: "furniture", widget: "list", 
+                    fields: 
+                          [
+                           {label: "ID", name: "id", widget: "number"}, 
+                           {label: "Title", name: "title", widget: "string"}, 
+                           {label: "Description", name: "description", widget: "string"}, 
+                           {label: "Originalprize", name: "originalprize", widget: "number"},
+                           {label: "Currentprize", name: "currentprize", widget: "number"},
+                           {label: "Image", name: "image", widget: "image"}
+                          ]
+          }
+          - {label: "art", name: "art", widget: "list", 
+                    fields: 
+                          [
+                           {label: "ID", name: "id", widget: "number"}, 
+                           {label: "Title", name: "title", widget: "string"}, 
+                           {label: "Description", name: "description", widget: "string"}, 
+                           {label: "Originalprize", name: "originalprize", widget: "number"},
+                           {label: "Currentprize", name: "currentprize", widget: "number"},
+                           {label: "Image", name: "image", widget: "image"}
+                          ]
+          }
+          - {label: "furnishings", name: "furnishings", widget: "list", 
+                    fields: 
+                          [
+                           {label: "ID", name: "id", widget: "number"}, 
+                           {label: "Title", name: "title", widget: "string"}, 
+                           {label: "Description", name: "description", widget: "string"}, 
+                           {label: "Originalprize", name: "originalprize", widget: "number"},
+                           {label: "Currentprize", name: "currentprize", widget: "number"},
+                           {label: "Image", name: "image", widget: "image"}
+                          ]
+          }
+          - {label: "lighting", name: "lighting", widget: "list", 
+                    fields: 
+                          [
+                           {label: "ID", name: "id", widget: "number"}, 
+                           {label: "Title", name: "title", widget: "string"}, 
+                           {label: "Description", name: "description", widget: "string"}, 
+                           {label: "Originalprize", name: "originalprize", widget: "number"},
+                           {label: "Currentprize", name: "currentprize", widget: "number"},
+                           {label: "Image", name: "image", widget: "image"}
+                          ]
+          }
+          - {label: "Decor accessories", name: "DecorAccessories", widget: "list", 
+                    fields: 
+                          [
+                           {label: "ID", name: "id", widget: "number"}, 
+                           {label: "Title", name: "title", widget: "string"}, 
+                           {label: "Description", name: "description", widget: "string"}, 
+                           {label: "Originalprize", name: "originalprize", widget: "number"},
+                           {label: "Currentprize", name: "currentprize", widget: "number"},
+                           {label: "Image", name: "image", widget: "image"}
+                          ]
+          }
+          - {label: "wall coverings", name: "wallCoverings", widget: "list", 
+                    fields: 
+                          [
+                           {label: "ID", name: "id", widget: "number"}, 
+                           {label: "Title", name: "title", widget: "string"}, 
+                           {label: "Description", name: "description", widget: "string"}, 
+                           {label: "Originalprize", name: "originalprize", widget: "number"},
+                           {label: "Currentprize", name: "currentprize", widget: "number"},
+                           {label: "Image", name: "image", widget: "image"}
+                          ]
+          }
+          - {label: "security and safety", name: "securityAndSafety", widget: "list", 
+                    fields: 
+                          [
+                           {label: "ID", name: "id", widget: "number"}, 
+                           {label: "Title", name: "title", widget: "string"}, 
+                           {label: "Description", name: "description", widget: "string"}, 
+                           {label: "Originalprize", name: "originalprize", widget: "number"},
+                           {label: "Currentprize", name: "currentprize", widget: "number"},
+                           {label: "Image", name: "image", widget: "image"}
+                          ]
+          }
+          - {label: "gardening", name: "gardening", widget: "list", 
+                    fields: 
+                          [
+                           {label: "ID", name: "id", widget: "number"}, 
+                           {label: "Title", name: "title", widget: "string"}, 
+                           {label: "Description", name: "description", widget: "string"}, 
+                           {label: "Originalprize", name: "originalprize", widget: "number"},
+                           {label: "Currentprize", name: "currentprize", widget: "number"},
+                           {label: "Image", name: "image", widget: "image"}
+                          ]
+          }
+          - {label: "kids furniture", name: "kidsFurniture", widget: "list", 
+                    fields: 
+                          [
+                           {label: "ID", name: "id", widget: "number"}, 
+                           {label: "Title", name: "title", widget: "string"}, 
+                           {label: "Description", name: "description", widget: "string"}, 
+                           {label: "Originalprize", name: "originalprize", widget: "number"},
+                           {label: "Currentprize", name: "currentprize", widget: "number"},
+                           {label: "Image", name: "image", widget: "image"}
+                          ]
+          }
+          - {label: "Stores&Selves", name: "StoresAndSelves", widget: "list", 
+                    fields: 
+                          [
+                           {label: "ID", name: "id", widget: "number"}, 
+                           {label: "Title", name: "title", widget: "string"}, 
+                           {label: "Description", name: "description", widget: "string"}, 
+                           {label: "Originalprize", name: "originalprize", widget: "number"},
+                           {label: "Currentprize", name: "currentprize", widget: "number"},
+                           {label: "Image", name: "image", widget: "image"}
+                          ]
+          }
       - file: "src/data/recentprojects.md"
         label: "Recentprojects"
         name: "recentprojects"
@@ -86,4 +206,108 @@ collections:
         name: "work"
         fields:
           - {label: "WorkMenu", name: "workMenu", widget: "list", fields: [{label: "ID", name: "id", widget: "number"}, {label: "WorkList", name: "li", widget: "string"}]}
+          - {label: "Bedroom", name: "Bedroom", widget: "list",
+              fields: [
+                        {label: "ID", name: "id", widget: "number"},
+                        {label: "ClassName", name: "class", widget: "string"},
+                        {label: "carousalclass", name: "carousalclass", widget: "string"},
+                        {label: "h1", name: "h1", widget: "string"},
+                        {label: "address", name: "address", widget: "string"},
+                        {label: "cost", name: "cost", widget: "string"},
+                        {label: "reviewpara", name: "reviewpara", widget: "string"},
+                        {label: "name", name: "name", widget: "string"},
+                        {label: "location", name: "location", widget: "string"},
+                      ]
+              }
+          - {label: "Modular Kitchen", name: "ModularKitchen", widget: "list",
+              fields: [
+                        {label: "ID", name: "id", widget: "number"},
+                        {label: "ClassName", name: "class", widget: "string"},
+                        {label: "carousalclass", name: "carousalclass", widget: "string"},
+                        {label: "h1", name: "h1", widget: "string"},
+                        {label: "address", name: "address", widget: "string"},
+                        {label: "cost", name: "cost", widget: "string"},
+                        {label: "reviewpara", name: "reviewpara", widget: "string"},
+                        {label: "name", name: "name", widget: "string"},
+                        {label: "location", name: "location", widget: "string"},
+                      ]
+              }
+          - {label: "Kids Bedroom", name: "KidsBedroom", widget: "list",
+              fields: [
+                        {label: "ID", name: "id", widget: "number"},
+                        {label: "ClassName", name: "class", widget: "string"},
+                        {label: "carousalclass", name: "carousalclass", widget: "string"},
+                        {label: "h1", name: "h1", widget: "string"},
+                        {label: "address", name: "address", widget: "string"},
+                        {label: "cost", name: "cost", widget: "string"},
+                        {label: "reviewpara", name: "reviewpara", widget: "string"},
+                        {label: "name", name: "name", widget: "string"},
+                        {label: "location", name: "location", widget: "string"},
+                      ]
+              }
+          - {label: "Bed Living Roomroom", name: "BedLivingRoomroom", widget: "list",
+              fields: [
+                        {label: "ID", name: "id", widget: "number"},
+                        {label: "ClassName", name: "class", widget: "string"},
+                        {label: "carousalclass", name: "carousalclass", widget: "string"},
+                        {label: "h1", name: "h1", widget: "string"},
+                        {label: "address", name: "address", widget: "string"},
+                        {label: "cost", name: "cost", widget: "string"},
+                        {label: "reviewpara", name: "reviewpara", widget: "string"},
+                        {label: "name", name: "name", widget: "string"},
+                        {label: "location", name: "location", widget: "string"},
+                      ]
+              }
+          - {label: "Dining Room", name: "DiningRoom", widget: "list",
+              fields: [
+                        {label: "ID", name: "id", widget: "number"},
+                        {label: "ClassName", name: "class", widget: "string"},
+                        {label: "carousalclass", name: "carousalclass", widget: "string"},
+                        {label: "h1", name: "h1", widget: "string"},
+                        {label: "address", name: "address", widget: "string"},
+                        {label: "cost", name: "cost", widget: "string"},
+                        {label: "reviewpara", name: "reviewpara", widget: "string"},
+                        {label: "name", name: "name", widget: "string"},
+                        {label: "location", name: "location", widget: "string"},
+                      ]
+              }
+          - {label: "Bedroom", name: "Bedroom", widget: "list",
+              fields: [
+                        {label: "ID", name: "id", widget: "number"},
+                        {label: "ClassName", name: "class", widget: "string"},
+                        {label: "carousalclass", name: "carousalclass", widget: "string"},
+                        {label: "h1", name: "h1", widget: "string"},
+                        {label: "address", name: "address", widget: "string"},
+                        {label: "cost", name: "cost", widget: "string"},
+                        {label: "reviewpara", name: "reviewpara", widget: "string"},
+                        {label: "name", name: "name", widget: "string"},
+                        {label: "location", name: "location", widget: "string"},
+                      ]
+              }
+          - {label: "Wardrobe", name: "Wardrobe", widget: "list",
+              fields: [
+                        {label: "ID", name: "id", widget: "number"},
+                        {label: "ClassName", name: "class", widget: "string"},
+                        {label: "carousalclass", name: "carousalclass", widget: "string"},
+                        {label: "h1", name: "h1", widget: "string"},
+                        {label: "address", name: "address", widget: "string"},
+                        {label: "cost", name: "cost", widget: "string"},
+                        {label: "reviewpara", name: "reviewpara", widget: "string"},
+                        {label: "name", name: "name", widget: "string"},
+                        {label: "location", name: "location", widget: "string"},
+                      ]
+              }
+          - {label: "Space Saving", name: "SpaceSaving", widget: "list",
+              fields: [
+                        {label: "ID", name: "id", widget: "number"},
+                        {label: "ClassName", name: "class", widget: "string"},
+                        {label: "carousalclass", name: "carousalclass", widget: "string"},
+                        {label: "h1", name: "h1", widget: "string"},
+                        {label: "address", name: "address", widget: "string"},
+                        {label: "cost", name: "cost", widget: "string"},
+                        {label: "reviewpara", name: "reviewpara", widget: "string"},
+                        {label: "name", name: "name", widget: "string"},
+                        {label: "location", name: "location", widget: "string"},
+                      ]
+              }
       

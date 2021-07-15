@@ -79,7 +79,7 @@ body {
   font-family: Poppins;
   font-style: normal;
   font-weight: 500;
-  font-size: 12px;
+  font-size:0.9vw;
   display: flex;
   align-items: center;
   text-transform: uppercase;
@@ -88,13 +88,7 @@ body {
   margin: 0;
 }
 .product_nav ul li:hover {
-  background-color: rgba(237, 241, 247, 1);
-  border: none;
-  border-left: 6px solid rgba(50, 211, 169, 1);
-  font-weight: 600;
   cursor: pointer;
-  font-size: 0.8vw;
-  transition: 0.5s ease;
 }
 /*===========cards=============*/
 .product_cards_nav {
@@ -102,13 +96,27 @@ body {
     width: 85%;
   }
   .product_all_cards {
+    display: none;
+    grid-template-columns: auto auto auto;
+    padding: 33px 22px;
+    gap: 22px;
+  }
+  .active-product_all_cards{
     display: grid;
     grid-template-columns: auto auto auto;
     padding: 33px 22px;
     gap: 22px;
   }
+  .active-tabs{
+    background-color: rgba(237, 241, 247, 1);
+    border: none;
+    border-left: 6px solid rgba(50, 211, 169, 1);
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 0.8vw;
+    transition: 0.5s ease;
+  }
   .product_card1 {
-    max-width: 370px;
     background: white;
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
   }
@@ -441,6 +449,9 @@ body {
   .product_background {
     background-size: 85vw auto;
     background-position: center bottom 0;
+  }
+  .p4_intro_txt h1{
+    line-height: 45px;
   }
 }
 @media (max-width:401px) {

@@ -48,7 +48,507 @@ productnav: [
     li: "Stores&Selves"
   },
 ]
-product: [
+kitchenAccessories: [
+    {
+      id: 1,
+      title: "Rome 3 Seater Sofa Green",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam orci odio velit, sem vestibul",
+      originalprize: "Rs.21,150",
+      currentprize: "14,999",
+      image: "./assets/c1.png"
+    },
+    {
+      id: 2,
+      title: "Rome 3 Seater Sofa Green",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam orci odio velit, sem vestibul",
+      originalprize: "Rs.21,150",
+      currentprize: "14,999",
+      image: "./assets/c2.png"
+    },
+    {
+      id: 3,
+      title: "Rome 3 Seater Sofa Green",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam orci odio velit, sem vestibul",
+      originalprize: "Rs.21,150",
+      currentprize: "14,999",
+      image: "./assets/c3.png"
+    },
+    {
+      id: 4,
+      title: "Rome 3 Seater Sofa Green",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam orci odio velit, sem vestibul",
+      originalprize: "Rs.21,150",
+      currentprize: "14,999",
+      image: "./assets/c4.png"
+    },
+    {
+      id: 5,
+      title: "Rome 3 Seater Sofa Green",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam orci odio velit, sem vestibul",
+      originalprize: "Rs.21,150",
+      currentprize: "14,999",
+      image: "./assets/c5.png"
+    },
+    {
+      id: 6,
+      title: "Rome 3 Seater Sofa Green",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam orci odio velit, sem vestibul",
+      originalprize: "Rs.21,150",
+      currentprize: "14,999",
+      image: "./assets/c6.png"
+    },
+  ]
+furniture: [
+    {
+      id: 1,
+      title: "yam",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam orci odio velit, sem vestibul",
+      originalprize: "Rs.21,150",
+      currentprize: "14,999",
+      image: "./assets/c1.png"
+    },
+    {
+      id: 2,
+      title: "Rome 3 Seater Sofa Green",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam orci odio velit, sem vestibul",
+      originalprize: "Rs.21,150",
+      currentprize: "14,999",
+      image: "./assets/c2.png"
+    },
+    {
+      id: 3,
+      title: "Rome 3 Seater Sofa Green",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam orci odio velit, sem vestibul",
+      originalprize: "Rs.21,150",
+      currentprize: "14,999",
+      image: "./assets/c3.png"
+    },
+    {
+      id: 4,
+      title: "Rome 3 Seater Sofa Green",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam orci odio velit, sem vestibul",
+      originalprize: "Rs.21,150",
+      currentprize: "14,999",
+      image: "./assets/c4.png"
+    },
+    {
+      id: 5,
+      title: "Rome 3 Seater Sofa Green",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam orci odio velit, sem vestibul",
+      originalprize: "Rs.21,150",
+      currentprize: "14,999",
+      image: "./assets/c5.png"
+    },
+    {
+      id: 6,
+      title: "Rome 3 Seater Sofa Green",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam orci odio velit, sem vestibul",
+      originalprize: "Rs.21,150",
+      currentprize: "14,999",
+      image: "./assets/c6.png"
+    },
+  ]
+art: [
+    {
+      id: 1,
+      title: "Rome 3 Seater Sofa Green",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam orci odio velit, sem vestibul",
+      originalprize: "Rs.21,150",
+      currentprize: "14,999",
+      image: "./assets/c1.png"
+    },
+    {
+      id: 2,
+      title: "Rome 3 Seater Sofa Green",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam orci odio velit, sem vestibul",
+      originalprize: "Rs.21,150",
+      currentprize: "14,999",
+      image: "./assets/c2.png"
+    },
+    {
+      id: 3,
+      title: "Rome 3 Seater Sofa Green",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam orci odio velit, sem vestibul",
+      originalprize: "Rs.21,150",
+      currentprize: "14,999",
+      image: "./assets/c3.png"
+    },
+    {
+      id: 4,
+      title: "Rome 3 Seater Sofa Green",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam orci odio velit, sem vestibul",
+      originalprize: "Rs.21,150",
+      currentprize: "14,999",
+      image: "./assets/c4.png"
+    },
+    {
+      id: 5,
+      title: "Rome 3 Seater Sofa Green",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam orci odio velit, sem vestibul",
+      originalprize: "Rs.21,150",
+      currentprize: "14,999",
+      image: "./assets/c5.png"
+    },
+    {
+      id: 6,
+      title: "Rome 3 Seater Sofa Green",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam orci odio velit, sem vestibul",
+      originalprize: "Rs.21,150",
+      currentprize: "14,999",
+      image: "./assets/c6.png"
+    },
+  ]
+furnishings: [
+    {
+      id: 1,
+      title: "Rome 3 Seater Sofa Green",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam orci odio velit, sem vestibul",
+      originalprize: "Rs.21,150",
+      currentprize: "14,999",
+      image: "./assets/c1.png"
+    },
+    {
+      id: 2,
+      title: "Rome 3 Seater Sofa Green",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam orci odio velit, sem vestibul",
+      originalprize: "Rs.21,150",
+      currentprize: "14,999",
+      image: "./assets/c2.png"
+    },
+    {
+      id: 3,
+      title: "Rome 3 Seater Sofa Green",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam orci odio velit, sem vestibul",
+      originalprize: "Rs.21,150",
+      currentprize: "14,999",
+      image: "./assets/c3.png"
+    },
+    {
+      id: 4,
+      title: "Rome 3 Seater Sofa Green",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam orci odio velit, sem vestibul",
+      originalprize: "Rs.21,150",
+      currentprize: "14,999",
+      image: "./assets/c4.png"
+    },
+    {
+      id: 5,
+      title: "Rome 3 Seater Sofa Green",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam orci odio velit, sem vestibul",
+      originalprize: "Rs.21,150",
+      currentprize: "14,999",
+      image: "./assets/c5.png"
+    },
+    {
+      id: 6,
+      title: "Rome 3 Seater Sofa Green",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam orci odio velit, sem vestibul",
+      originalprize: "Rs.21,150",
+      currentprize: "14,999",
+      image: "./assets/c6.png"
+    },
+  ]
+lighting: [
+    {
+      id: 1,
+      title: "Rome 3 Seater Sofa Green",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam orci odio velit, sem vestibul",
+      originalprize: "Rs.21,150",
+      currentprize: "14,999",
+      image: "./assets/c1.png"
+    },
+    {
+      id: 2,
+      title: "Rome 3 Seater Sofa Green",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam orci odio velit, sem vestibul",
+      originalprize: "Rs.21,150",
+      currentprize: "14,999",
+      image: "./assets/c2.png"
+    },
+    {
+      id: 3,
+      title: "Rome 3 Seater Sofa Green",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam orci odio velit, sem vestibul",
+      originalprize: "Rs.21,150",
+      currentprize: "14,999",
+      image: "./assets/c3.png"
+    },
+    {
+      id: 4,
+      title: "Rome 3 Seater Sofa Green",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam orci odio velit, sem vestibul",
+      originalprize: "Rs.21,150",
+      currentprize: "14,999",
+      image: "./assets/c4.png"
+    },
+    {
+      id: 5,
+      title: "Rome 3 Seater Sofa Green",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam orci odio velit, sem vestibul",
+      originalprize: "Rs.21,150",
+      currentprize: "14,999",
+      image: "./assets/c5.png"
+    },
+    {
+      id: 6,
+      title: "Rome 3 Seater Sofa Green",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam orci odio velit, sem vestibul",
+      originalprize: "Rs.21,150",
+      currentprize: "14,999",
+      image: "./assets/c6.png"
+    },
+  ]
+DecorAccessories: [
+    {
+      id: 1,
+      title: "Rome 3 Seater Sofa Green",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam orci odio velit, sem vestibul",
+      originalprize: "Rs.21,150",
+      currentprize: "14,999",
+      image: "./assets/c1.png"
+    },
+    {
+      id: 2,
+      title: "Rome 3 Seater Sofa Green",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam orci odio velit, sem vestibul",
+      originalprize: "Rs.21,150",
+      currentprize: "14,999",
+      image: "./assets/c2.png"
+    },
+    {
+      id: 3,
+      title: "Rome 3 Seater Sofa Green",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam orci odio velit, sem vestibul",
+      originalprize: "Rs.21,150",
+      currentprize: "14,999",
+      image: "./assets/c3.png"
+    },
+    {
+      id: 4,
+      title: "Rome 3 Seater Sofa Green",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam orci odio velit, sem vestibul",
+      originalprize: "Rs.21,150",
+      currentprize: "14,999",
+      image: "./assets/c4.png"
+    },
+    {
+      id: 5,
+      title: "Rome 3 Seater Sofa Green",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam orci odio velit, sem vestibul",
+      originalprize: "Rs.21,150",
+      currentprize: "14,999",
+      image: "./assets/c5.png"
+    },
+    {
+      id: 6,
+      title: "Rome 3 Seater Sofa Green",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam orci odio velit, sem vestibul",
+      originalprize: "Rs.21,150",
+      currentprize: "14,999",
+      image: "./assets/c6.png"
+    },
+  ]
+wallCoverings: [
+    {
+      id: 1,
+      title: "Rome 3 Seater Sofa Green",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam orci odio velit, sem vestibul",
+      originalprize: "Rs.21,150",
+      currentprize: "14,999",
+      image: "./assets/c1.png"
+    },
+    {
+      id: 2,
+      title: "Rome 3 Seater Sofa Green",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam orci odio velit, sem vestibul",
+      originalprize: "Rs.21,150",
+      currentprize: "14,999",
+      image: "./assets/c2.png"
+    },
+    {
+      id: 3,
+      title: "Rome 3 Seater Sofa Green",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam orci odio velit, sem vestibul",
+      originalprize: "Rs.21,150",
+      currentprize: "14,999",
+      image: "./assets/c3.png"
+    },
+    {
+      id: 4,
+      title: "Rome 3 Seater Sofa Green",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam orci odio velit, sem vestibul",
+      originalprize: "Rs.21,150",
+      currentprize: "14,999",
+      image: "./assets/c4.png"
+    },
+    {
+      id: 5,
+      title: "Rome 3 Seater Sofa Green",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam orci odio velit, sem vestibul",
+      originalprize: "Rs.21,150",
+      currentprize: "14,999",
+      image: "./assets/c5.png"
+    },
+    {
+      id: 6,
+      title: "Rome 3 Seater Sofa Green",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam orci odio velit, sem vestibul",
+      originalprize: "Rs.21,150",
+      currentprize: "14,999",
+      image: "./assets/c6.png"
+    },
+  ]
+securityAndSafety: [
+    {
+      id: 1,
+      title: "Rome 3 Seater Sofa Green",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam orci odio velit, sem vestibul",
+      originalprize: "Rs.21,150",
+      currentprize: "14,999",
+      image: "./assets/c1.png"
+    },
+    {
+      id: 2,
+      title: "Rome 3 Seater Sofa Green",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam orci odio velit, sem vestibul",
+      originalprize: "Rs.21,150",
+      currentprize: "14,999",
+      image: "./assets/c2.png"
+    },
+    {
+      id: 3,
+      title: "Rome 3 Seater Sofa Green",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam orci odio velit, sem vestibul",
+      originalprize: "Rs.21,150",
+      currentprize: "14,999",
+      image: "./assets/c3.png"
+    },
+    {
+      id: 4,
+      title: "Rome 3 Seater Sofa Green",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam orci odio velit, sem vestibul",
+      originalprize: "Rs.21,150",
+      currentprize: "14,999",
+      image: "./assets/c4.png"
+    },
+    {
+      id: 5,
+      title: "Rome 3 Seater Sofa Green",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam orci odio velit, sem vestibul",
+      originalprize: "Rs.21,150",
+      currentprize: "14,999",
+      image: "./assets/c5.png"
+    },
+    {
+      id: 6,
+      title: "Rome 3 Seater Sofa Green",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam orci odio velit, sem vestibul",
+      originalprize: "Rs.21,150",
+      currentprize: "14,999",
+      image: "./assets/c6.png"
+    },
+  ]
+gardening: [
+    {
+      id: 1,
+      title: "Rome 3 Seater Sofa Green",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam orci odio velit, sem vestibul",
+      originalprize: "Rs.21,150",
+      currentprize: "14,999",
+      image: "./assets/c1.png"
+    },
+    {
+      id: 2,
+      title: "Rome 3 Seater Sofa Green",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam orci odio velit, sem vestibul",
+      originalprize: "Rs.21,150",
+      currentprize: "14,999",
+      image: "./assets/c2.png"
+    },
+    {
+      id: 3,
+      title: "Rome 3 Seater Sofa Green",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam orci odio velit, sem vestibul",
+      originalprize: "Rs.21,150",
+      currentprize: "14,999",
+      image: "./assets/c3.png"
+    },
+    {
+      id: 4,
+      title: "Rome 3 Seater Sofa Green",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam orci odio velit, sem vestibul",
+      originalprize: "Rs.21,150",
+      currentprize: "14,999",
+      image: "./assets/c4.png"
+    },
+    {
+      id: 5,
+      title: "Rome 3 Seater Sofa Green",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam orci odio velit, sem vestibul",
+      originalprize: "Rs.21,150",
+      currentprize: "14,999",
+      image: "./assets/c5.png"
+    },
+    {
+      id: 6,
+      title: "Rome 3 Seater Sofa Green",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam orci odio velit, sem vestibul",
+      originalprize: "Rs.21,150",
+      currentprize: "14,999",
+      image: "./assets/c6.png"
+    },
+  ]
+kidsFurniture: [
+    {
+      id: 1,
+      title: "Rome 3 Seater Sofa Green",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam orci odio velit, sem vestibul",
+      originalprize: "Rs.21,150",
+      currentprize: "14,999",
+      image: "./assets/c1.png"
+    },
+    {
+      id: 2,
+      title: "Rome 3 Seater Sofa Green",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam orci odio velit, sem vestibul",
+      originalprize: "Rs.21,150",
+      currentprize: "14,999",
+      image: "./assets/c2.png"
+    },
+    {
+      id: 3,
+      title: "Rome 3 Seater Sofa Green",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam orci odio velit, sem vestibul",
+      originalprize: "Rs.21,150",
+      currentprize: "14,999",
+      image: "./assets/c3.png"
+    },
+    {
+      id: 4,
+      title: "Rome 3 Seater Sofa Green",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam orci odio velit, sem vestibul",
+      originalprize: "Rs.21,150",
+      currentprize: "14,999",
+      image: "./assets/c4.png"
+    },
+    {
+      id: 5,
+      title: "Rome 3 Seater Sofa Green",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam orci odio velit, sem vestibul",
+      originalprize: "Rs.21,150",
+      currentprize: "14,999",
+      image: "./assets/c5.png"
+    },
+    {
+      id: 6,
+      title: "Rome 3 Seater Sofa Green",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam orci odio velit, sem vestibul",
+      originalprize: "Rs.21,150",
+      currentprize: "14,999",
+      image: "./assets/c6.png"
+    },
+  ]
+StoresAndSelves: [
     {
       id: 1,
       title: "Rome 3 Seater Sofa Green",

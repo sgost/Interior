@@ -21,7 +21,7 @@ const imageData = [
 ]
 const Pslider = () => {
 
-    const [dispImg, setDisp] = useState('');
+    const [dispImg, setDisp] = useState();
     const [cardIndex, setIndex] = useState();
     const [dispImgStyle, seTStyle] = useState({ display: 'flex' });
 

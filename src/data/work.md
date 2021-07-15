@@ -36,7 +36,175 @@ workMenu: [
         li: "Space Saving" 
     },
   ]
-workcard: [
+Bedroom: [
+   {
+      id: 1,
+      class: "work_carousal_card",
+      carousalclass: "work_carousal_card_block1",
+      h1: "Customized Modular Kitchen Setup",
+      address: "Electronic city, Banlagore",
+      cost: "Cost: Rs. 1,50,000",
+      reviewpara: "We have worked in all kinds of kitchen modules and bring some of the trending designs in the market to make your kitchen get a classy and modern look.",
+      name: "Shirley Lin",
+      location: "Bangalore"
+    },
+    {
+      id: 2,
+      class: "work_carousal_card work_carousal_card2",
+      carousalclass: "work_carousal_card_block1 work_carousal_card2_block1",
+      h1: "Customized Modular Kitchen Setup",
+      address: "Electronic city, Banlagore",
+      cost: "Cost: Rs. 1,50,000",
+      reviewpara: "We have worked in all kinds of kitchen modules and bring some of the trending designs in the market to make your kitchen get a classy and modern look.",
+      name: "Shirley Lin",
+      location: "Bangalore"
+    }
+  ]
+ModularKitchen: [
+   {
+      id: 1,
+      class: "work_carousal_card",
+      carousalclass: "work_carousal_card_block1",
+      h1: "row",
+      address: "Electronic city, Banlagore",
+      cost: "Cost: Rs. 1,50,000",
+      reviewpara: "We have worked in all kinds of kitchen modules and bring some of the trending designs in the market to make your kitchen get a classy and modern look.",
+      name: "Shirley Lin",
+      location: "Bangalore"
+    },
+    {
+      id: 2,
+      class: "work_carousal_card work_carousal_card2",
+      carousalclass: "work_carousal_card_block1 work_carousal_card2_block1",
+      h1: "Customized Modular Kitchen Setup",
+      address: "Electronic city, Banlagore",
+      cost: "Cost: Rs. 1,50,000",
+      reviewpara: "We have worked in all kinds of kitchen modules and bring some of the trending designs in the market to make your kitchen get a classy and modern look.",
+      name: "Shirley Lin",
+      location: "Bangalore"
+    }
+  ]
+KidsBedroom: [
+   {
+      id: 1,
+      class: "work_carousal_card",
+      carousalclass: "work_carousal_card_block1",
+      h1: "Customized Modular Kitchen Setup",
+      address: "Electronic city, Banlagore",
+      cost: "Cost: Rs. 1,50,000",
+      reviewpara: "We have worked in all kinds of kitchen modules and bring some of the trending designs in the market to make your kitchen get a classy and modern look.",
+      name: "Shirley Lin",
+      location: "Bangalore"
+    },
+    {
+      id: 2,
+      class: "work_carousal_card work_carousal_card2",
+      carousalclass: "work_carousal_card_block1 work_carousal_card2_block1",
+      h1: "Customized Modular Kitchen Setup",
+      address: "Electronic city, Banlagore",
+      cost: "Cost: Rs. 1,50,000",
+      reviewpara: "We have worked in all kinds of kitchen modules and bring some of the trending designs in the market to make your kitchen get a classy and modern look.",
+      name: "Shirley Lin",
+      location: "Bangalore"
+    }
+  ]
+BedLivingRoomroom: [
+   {
+      id: 1,
+      class: "work_carousal_card",
+      carousalclass: "work_carousal_card_block1",
+      h1: "Customized Modular Kitchen Setup",
+      address: "Electronic city, Banlagore",
+      cost: "Cost: Rs. 1,50,000",
+      reviewpara: "We have worked in all kinds of kitchen modules and bring some of the trending designs in the market to make your kitchen get a classy and modern look.",
+      name: "Shirley Lin",
+      location: "Bangalore"
+    },
+    {
+      id: 2,
+      class: "work_carousal_card work_carousal_card2",
+      carousalclass: "work_carousal_card_block1 work_carousal_card2_block1",
+      h1: "Customized Modular Kitchen Setup",
+      address: "Electronic city, Banlagore",
+      cost: "Cost: Rs. 1,50,000",
+      reviewpara: "We have worked in all kinds of kitchen modules and bring some of the trending designs in the market to make your kitchen get a classy and modern look.",
+      name: "Shirley Lin",
+      location: "Bangalore"
+    }
+  ]
+DiningRoom: [
+   {
+      id: 1,
+      class: "work_carousal_card",
+      carousalclass: "work_carousal_card_block1",
+      h1: "Customized Modular Kitchen Setup",
+      address: "Electronic city, Banlagore",
+      cost: "Cost: Rs. 1,50,000",
+      reviewpara: "We have worked in all kinds of kitchen modules and bring some of the trending designs in the market to make your kitchen get a classy and modern look.",
+      name: "Shirley Lin",
+      location: "Bangalore"
+    },
+    {
+      id: 2,
+      class: "work_carousal_card work_carousal_card2",
+      carousalclass: "work_carousal_card_block1 work_carousal_card2_block1",
+      h1: "Customized Modular Kitchen Setup",
+      address: "Electronic city, Banlagore",
+      cost: "Cost: Rs. 1,50,000",
+      reviewpara: "We have worked in all kinds of kitchen modules and bring some of the trending designs in the market to make your kitchen get a classy and modern look.",
+      name: "Shirley Lin",
+      location: "Bangalore"
+    }
+  ]
+Bathroom: [
+   {
+      id: 1,
+      class: "work_carousal_card",
+      carousalclass: "work_carousal_card_block1",
+      h1: "Customized Modular Kitchen Setup",
+      address: "Electronic city, Banlagore",
+      cost: "Cost: Rs. 1,50,000",
+      reviewpara: "We have worked in all kinds of kitchen modules and bring some of the trending designs in the market to make your kitchen get a classy and modern look.",
+      name: "Shirley Lin",
+      location: "Bangalore"
+    },
+    {
+      id: 2,
+      class: "work_carousal_card work_carousal_card2",
+      carousalclass: "work_carousal_card_block1 work_carousal_card2_block1",
+      h1: "Customized Modular Kitchen Setup",
+      address: "Electronic city, Banlagore",
+      cost: "Cost: Rs. 1,50,000",
+      reviewpara: "We have worked in all kinds of kitchen modules and bring some of the trending designs in the market to make your kitchen get a classy and modern look.",
+      name: "Shirley Lin",
+      location: "Bangalore"
+    }
+  ]
+Wardrobe: [
+   {
+      id: 1,
+      class: "work_carousal_card",
+      carousalclass: "work_carousal_card_block1",
+      h1: "Customized Modular Kitchen Setup",
+      address: "Electronic city, Banlagore",
+      cost: "Cost: Rs. 1,50,000",
+      reviewpara: "We have worked in all kinds of kitchen modules and bring some of the trending designs in the market to make your kitchen get a classy and modern look.",
+      name: "Shirley Lin",
+      location: "Bangalore"
+    },
+    {
+      id: 2,
+      class: "work_carousal_card work_carousal_card2",
+      carousalclass: "work_carousal_card_block1 work_carousal_card2_block1",
+      h1: "Customized Modular Kitchen Setup",
+      address: "Electronic city, Banlagore",
+      cost: "Cost: Rs. 1,50,000",
+      reviewpara: "We have worked in all kinds of kitchen modules and bring some of the trending designs in the market to make your kitchen get a classy and modern look.",
+      name: "Shirley Lin",
+      location: "Bangalore"
+    }
+  ]
+SpaceSaving: [
    {
       id: 1,
       class: "work_carousal_card",
